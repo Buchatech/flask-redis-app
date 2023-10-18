@@ -39,11 +39,11 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-  CLUSTER_NAME: "your-cluster-name"
-  DOCKER_COMPOSE_FILE_PATH: "your-docker-compose-file-path"
+  AZURE_CONTAINER_REGISTRY: registrywysteb
+  CONTAINER_NAME: flask-redis-app-1
+  RESOURCE_GROUP: wy-rg-STEB
+  CLUSTER_NAME: aks-wy-steb
+  DOCKER_COMPOSE_FILE_PATH: compose.yaml
 
 jobs:
   buildImage:
