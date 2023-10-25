@@ -43,7 +43,7 @@ env:
   CONTAINER_NAME: flask-redis-app-1
   RESOURCE_GROUP: wy-rg-STEB
   CLUSTER_NAME: aks-wy-steb
-  DOCKER_COMPOSE_FILE_PATH: ./docker-compose.yml
+  DOCKER_COMPOSE_FILE_PATH: ./docker-compose-start.yml
 
 jobs:
   buildImage:
